@@ -280,6 +280,7 @@ int main(int argc, char *argv[]) {
         BasicScene scene;
         BasicSceneBuilder builder(&scene);
         ParseFiles(&builder, filenames);
+        printf("parse file succeed\n");
 
         // Render the scene
         if (Options->useGPU || Options->wavefront)

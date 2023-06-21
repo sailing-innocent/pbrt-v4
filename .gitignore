@@ -7,3 +7,5 @@ src/build
 build/
 scene/
 .cache/
+*.exr
+*.png
